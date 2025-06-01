@@ -1,17 +1,24 @@
 {
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "inquirer": "^9.3.7",
-    "qr-image": "^3.2.0"
-  },
-  "name": "qr_url_generator",
+  "name": "qr-code-generator",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mari Borilla",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frances109/qr-generator.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "description": "QR code generator"
+  "bugs": {
+    "url": "https://github.com/frances109/qr-generator/issues"
+  },
+  "homepage": "https://github.com/frances109/qr-generator#readme",
+  "dependencies": {
+    "inquirer": "^12.6.3",
+    "qr-image": "^3.2.0"
+  }
 }
